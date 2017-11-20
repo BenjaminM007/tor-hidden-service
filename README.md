@@ -4,7 +4,7 @@ This docker container allows you to easily expose ports on other containers as h
 
 ## Usage
 
-Lets say you have docker container running a web app that you want to expose as a hidden service on the tor network. In this container's Dockerfile it contains the following instruction.
+The service is used in our Tor Hidden Service hosting via OneHost Cloud. We integrated this with other containers such as PHP/Wordpress ( which we do not advise on Tor ) and FTP via SSH. To host your hidden service on Tor visit https://onehostcloud.hosting 
 
 ```
 EXPOSE 80
@@ -21,9 +21,5 @@ This will expose port 80 on the hidden service domain and direct it to your link
 
 ## Why ?
 
-Two reasons mainly.
-
-The more traffic the tor network has the more resilient it becomes to statistical correlation attacks.
-
-Hidden services are a hugely important feature of the tor network and I wanted to make them more readily accessible to the world. By removing any slight configuration overhead I'm hoping to encourage their widespread use. They're incredibly useful even in situations where anonymity is not the main objective. Using hidden services to break NAT is also a common use case for example
+OneHost Cloud firmly beleives in privacy and the privacy and security that Tor offers allows anyone to host website privately ( with additional OpSec ) and without the interuption from Governments and other nefarious entities.
 
